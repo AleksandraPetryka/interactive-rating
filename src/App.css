@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rating-btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 1px solid #800040;
+    margin: 0 1rem;
+}
