@@ -22,6 +22,33 @@ body {
     text-align: center;
 }
 
+.info {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 100px;
+    background-color: #262F38;
+    color: hsl(25, 97%, 53%);
+    border: 1px solid #262F38;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 5rem;
+}
+
+.image{
+    margin: 0 5rem;
+    padding: 15px 0 20px 0;
+}
+
+.star {
+    padding: 13px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #262F38;
+    border: 1px solid #262F38;
+    margin: 10px 10px;
+}
+
 h1 {
     color: white;
 }
@@ -29,6 +56,7 @@ h1 {
 p {
     font-size: 15px;
     color: hsl(217, 12%, 63%);
+    line-height: 25px;
 }
 
 .submit-btn {
