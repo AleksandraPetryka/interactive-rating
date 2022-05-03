@@ -1,17 +1,48 @@
 body {
-    margin: 0;
+    padding: 200px;
+    margin: 0 20rem;
     font-family: 'Overpass', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: hsl(216, 12%, 8%);
 }
 
 .rating-btn {
-    font: inherit;
-    padding: 0.5rem 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    padding: 13px;
+    width: 50px;
     cursor: pointer;
-    border-radius: 4px;
-    background-color: hsl(25, 97%, 53%);
+    border-radius: 100px;
+    background-color: #262F38;
+    color: hsl(217, 12%, 63%);
+    border: 1px solid #262F38;
+    margin: 10px 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h1 {
     color: white;
-    border: 1px solid #800040;
-    margin: 0 1rem;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.submit-btn {
+    font-family: 'Overpass', sans-serif;
+    height: 45px;
+    line-height: 40px;
+    width: 330px;
+    font-weight: 700;
+    border-radius: 50px;
+    background-color: hsl(25, 97%, 53%);
+    border: 1px solid hsl(25, 97%, 53%);
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 10px;
 }
