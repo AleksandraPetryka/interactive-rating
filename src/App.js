@@ -10,7 +10,6 @@ function App() {
   const [ modalIsOpen, setModalIsOpen] = useState(false);
   const [ myPassedRate, setRateData] = useState(null);
 
-
   const pickRateDataHandler = (pickedRateData) => {
     const rateData = {
       ...pickedRateData
