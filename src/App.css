@@ -20,6 +20,19 @@ body {
     margin: 10px 10px;
     font-weight: 700;
     text-align: center;
+
+    transition: all 300ms ease-in-out;
+    transition-property: color, background-color;
+}
+
+.rating-btn--active {
+    background-color: #959eac;
+    color: white;
+}
+
+.rating-btn:hover {
+    background-color: #fb7413;
+    color: white;
 }
 
 .info {
@@ -73,4 +86,12 @@ p {
     text-align: center;
     cursor: pointer;
     margin: 10px 10px;
+    transition: all 300ms ease-in-out;
+    transition-property: color, background-color;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: #fb7413;
+    font-weight: 900;
 }

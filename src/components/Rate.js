@@ -1,21 +1,16 @@
 import IconStar from '../assets/icon-star.svg';
 import Card from './Card';
-
-let RATING_SCORE = {};
+import { useState } from 'react';
 
 function Rate(props) {
+  const [ratingScore, setRatingScore] = useState({});
   function handleSubmit(event) {
     event.preventDefault();
-    props.onPickRateData(RATING_SCORE);
+    props.onPickRateData(ratingScore);
     props.openModalFunction(true);
-    console.log('You clicked submit with score: ', RATING_SCORE);
+    console.log('You clicked submit with score: ', ratingScore);
   }
-
-  function rateHandler(score) {
-    RATING_SCORE = {score};
-    console.log('Rate has been hanged to: ', RATING_SCORE);
-  }
-
+  const possibleScores = [1, 2, 3, 4, 5];
 
   return (
     <Card>
@@ -25,11 +20,24 @@ function Rate(props) {
         to help us improve our offering!
       </p>
       <div>
-        <button className="rating-btn" onClick={(() => rateHandler(1))}>1</button>
-        <button className="rating-btn" onClick={(() => rateHandler(2))}>2</button>
-        <button className="rating-btn" onClick={(() => rateHandler(3))}>3</button>
-        <button className="rating-btn" onClick={(() => rateHandler(4))}>4</button>
-        <button className="rating-btn" onClick={(() => rateHandler(5))}>5</button>
+        {
+          possibleScores.map(value => {
+            let className = 'rating-btn';
+            if (value === ratingScore) {
+              className += ' rating-btn--active';
+            }
+            console.log('siemano')
+            return (
+              <button
+                className={className}
+                onClick={(() => setRatingScore(value))}
+                key={value}
+              >
+                {value}
+              </button>
+            );
+          })
+        }
       </div>
       <div>
         <button className="submit-btn" onClick={handleSubmit} >SUBMIT</button>
