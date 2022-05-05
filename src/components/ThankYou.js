@@ -2,7 +2,6 @@ import ilustration from '../assets/illustration-thank-you.svg';
 import Card from './Card';
 
 function ThankYou(props) {
-
   return (
     <Card>
       <div>

@@ -2,14 +2,14 @@ import IconStar from '../assets/icon-star.svg';
 import Card from './Card';
 import { useState } from 'react';
 
-function Rate(props) {
-  const [ratingScore, setRatingScore] = useState({});
-  function handleSubmit(event) {
-    event.preventDefault();
-    props.onPickRateData(ratingScore);
-    props.openModalFunction(true);
+function Rate({ onSubmit }) {
+  const [ratingScore, setRatingScore] = useState(null);
+
+  function handleSubmit() {
+    onSubmit(ratingScore);
     console.log('You clicked submit with score: ', ratingScore);
   }
+
   const possibleScores = [1, 2, 3, 4, 5];
 
   return (
@@ -26,7 +26,6 @@ function Rate(props) {
             if (value === ratingScore) {
               className += ' rating-btn--active';
             }
-            console.log('siemano')
             return (
               <button
                 className={className}
