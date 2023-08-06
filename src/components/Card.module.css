@@ -1,12 +1,8 @@
 .card {
-    width: 350px;
-    background-color: hsl(213, 19%, 18%);
-    border-radius: 30px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    padding: 30px;
-    background-image:
-            linear-gradient(
-                    to top,
-                    #1A1F25, #24282F
-            );
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-image: linear-gradient(to top, #1a1f25, #24282f);
 }

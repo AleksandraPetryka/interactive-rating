@@ -1,97 +1,97 @@
 body {
-    padding: 200px;
-    margin: 0 20rem;
-    font-family: 'Overpass', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: hsl(216, 12%, 8%);
+  padding: 200px;
+  margin: 0 20rem;
+  font-family: "Overpass", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(216, 12%, 8%);
 }
 
 .rating-btn {
-    font-family: 'Overpass', sans-serif;
-    font-size: 15px;
-    padding: 13px;
-    width: 50px;
-    cursor: pointer;
-    border-radius: 100px;
-    background-color: #262F38;
-    color: hsl(217, 12%, 63%);
-    border: 1px solid #262F38;
-    margin: 10px 10px;
-    font-weight: 700;
-    text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  padding: 13px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 100px;
+  background-color: #262f38;
+  color: hsl(217, 12%, 63%);
+  border: 1px solid #262f38;
+  margin: 10px 10px;
+  font-weight: 700;
+  text-align: center;
 
-    transition: all 300ms ease-in-out;
-    transition-property: color, background-color;
+  transition: all 300ms ease-in-out;
+  transition-property: color, background-color;
 }
 
 .rating-btn--active {
-    background-color: #959eac;
-    color: white;
+  background-color: #959eac;
+  color: white;
 }
 
 .rating-btn:hover {
-    background-color: #fb7413;
-    color: white;
+  background-color: #fb7413;
+  color: white;
 }
 
 .info {
-    font-family: 'Overpass', sans-serif;
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 100px;
-    background-color: #262F38;
-    color: hsl(25, 97%, 53%);
-    border: 1px solid #262F38;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 5rem;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 100px;
+  background-color: #262f38;
+  color: hsl(25, 97%, 53%);
+  border: 1px solid #262f38;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 5rem;
 }
 
-.image{
-    margin: 0 5rem;
-    padding: 15px 0 20px 0;
+.image {
+  margin: 0 5rem;
+  padding: 15px 0 20px 0;
 }
 
 .star {
-    padding: 13px;
-    width: 50px;
-    border-radius: 100px;
-    background-color: #262F38;
-    border: 1px solid #262F38;
-    margin: 10px 10px;
+  padding: 13px;
+  width: 50px;
+  border-radius: 100px;
+  background-color: #262f38;
+  border: 1px solid #262f38;
+  margin: 10px 10px;
 }
 
 h1 {
-    color: white;
+  color: white;
 }
 
 p {
-    font-size: 15px;
-    color: hsl(217, 12%, 63%);
-    line-height: 25px;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  line-height: 25px;
 }
 
 .submit-btn {
-    font-family: 'Overpass', sans-serif;
-    height: 45px;
-    line-height: 40px;
-    width: 330px;
-    font-weight: 700;
-    border-radius: 50px;
-    background-color: hsl(25, 97%, 53%);
-    border: 1px solid hsl(25, 97%, 53%);
-    letter-spacing: 2px;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    margin: 10px 10px;
-    transition: all 300ms ease-in-out;
-    transition-property: color, background-color;
+  font-family: "Overpass", sans-serif;
+  height: 45px;
+  line-height: 40px;
+  width: 330px;
+  font-weight: 700;
+  border-radius: 50px;
+  background-color: hsl(25, 97%, 53%);
+  border: 1px solid hsl(25, 97%, 53%);
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px 10px;
+  transition: all 300ms ease-in-out;
+  transition-property: color, background-color;
 }
 
 .submit-btn:hover {
-    background-color: white;
-    color: #fb7413;
-    font-weight: 900;
+  background-color: white;
+  color: #fb7413;
+  font-weight: 900;
 }
